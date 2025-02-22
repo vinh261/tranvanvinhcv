@@ -11,8 +11,8 @@ const ProjectChildRight = ({
 }: ProjectChildProps) => {
   console.log(imageUrl);
   return (
-    <div className="flex flex-row justify-between my-4">
-      <div className="relative w-full">
+    <div className="flex lg:flex-row justify-between my-4 flex-col xl:flex-row">
+      <div className="relative w-full my-4 xl:my-0">
         <Image
           src={imageUrl}
           alt={title}
@@ -44,7 +44,7 @@ const ProjectChildLeft = ({
   projectUrl,
 }: ProjectChildProps) => {
   return (
-    <div className="flex flex-row justify-between my-4">
+    <div className="flex lg:flex-row justify-between my-4 flex-col xl:flex-row">
       <div className="flex flex-col justify-center items-end mx-4">
         <p className="medium-title mt-4 text-right">{title}</p>
         <p className="small-content my-4 text-right">{description}</p>
@@ -54,7 +54,7 @@ const ProjectChildLeft = ({
           </a>
         </Button>
       </div>
-      <div className="relative w-full">
+      <div className="relative w-full my-4 xl:my-0">
         <Image
           src={imageUrl}
           alt={title}

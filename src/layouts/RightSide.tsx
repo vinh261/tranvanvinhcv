@@ -11,29 +11,30 @@ import Header from "./Header";
 
 const RightSide = () => {
   return (
-    <div className="w-2/3 bg-white float-right z-0 dark:invert">
+    <div className="xl:w-2/3 bg-white xl:float-right z-0 dark:invert md:relative md:w-full sm:relative sm:w-full">
       <div className="m-auto">
-      <section id="welcome">
+        <section id="welcome">
+          <Separator className="w-4/5 h-0.5 bg-orange-500 m-auto" />
           <Welcome />
         </section>
-        <Separator className="w-4/5 h-0.5 bg-orange-500 m-auto" />
         <section id="about">
+          <Separator className="w-4/5 h-0.5 bg-orange-500 m-auto" />
           <About />
         </section>
-        <Separator className="w-4/5 h-0.5 bg-orange-500 m-auto" />
         <section id="experience">
+          <Separator className="w-4/5 h-0.5 bg-orange-500 m-auto" />
           <Experience />
         </section>
-        <Separator className="w-4/5 h-0.5 bg-orange-500 m-auto" />
         <section id="blog">
+          <Separator className="w-4/5 h-0.5 bg-orange-500 m-auto" />
           <Blog />
         </section>
-        <Separator className="w-4/5 h-0.5 bg-orange-500 m-auto" />
         <section id="contact">
+          <Separator className="w-4/5 h-0.5 bg-orange-500 m-auto" />
           <Contact />
         </section>
         <Footer />
-        <Header/>
+        <Header />
       </div>
     </div>
   );

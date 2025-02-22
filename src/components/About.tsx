@@ -16,8 +16,8 @@ const About = () => {
         create intuitive and visually appealing designs that enhance user
         experiences and drive engagement.
       </p>
-      <div className="flex flex-row justify-between gap-28">
-        <ul className="flex flex-col w-4/5">
+      <div className="flex xl:flex-row sm:flex-col justify-between gap-28 flex-wrap xl:flex-nowrap">
+        <ul className="flex flex-col min-w-4/5">
           <li className="flex flex-row justify-between">
             <p className="small-title">Age</p>
             <p className="small-content">26 years old</p>
@@ -31,7 +31,7 @@ const About = () => {
             <p className="small-content">Long An Province</p>
           </li>
         </ul>
-        <ul className="flex flex-col w-4/5">
+        <ul className="flex flex-col min-w-4/5">
           <li className="flex flex-row justify-between">
             <p className="small-title">Phone: </p>
             <p className="small-content">+84 368599987</p>
@@ -53,7 +53,7 @@ const About = () => {
         Below is a breakdown of my expertise:
       </p>
       <ul className="flex flex-row flex-wrap gap-10 my-4">
-        <li className="flex flex-col items-center w-1/3 m-auto">
+        <li className="flex flex-col items-center min-w-1/3 m-auto ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="4em"
@@ -104,7 +104,7 @@ const About = () => {
             Explore More <PlayArrowIcon />
           </Button>
         </li>
-        <li className="flex flex-col items-center w-1/3 m-auto">
+        <li className="flex flex-col items-center min-w-1/3 m-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="4em"
@@ -139,7 +139,7 @@ const About = () => {
             Explore More <PlayArrowIcon />
           </Button>
         </li>
-        <li className="flex flex-col items-center w-1/3 m-auto">
+        <li className="flex flex-col items-center min-w-1/3 m-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="4em"
@@ -183,7 +183,7 @@ const About = () => {
             Explore More <PlayArrowIcon />
           </Button>
         </li>
-        <li className="flex flex-col items-center w-1/3 m-auto">
+        <li className="flex flex-col items-center min-w-1/3 m-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="4em"
